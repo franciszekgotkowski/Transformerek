@@ -7,7 +7,7 @@ from config import *
 
 print("Ładowanie datasetu...")
 
-dataset = load_dataset("opus100", "en-pl")
+dataset = load_dataset("Helsinki-NLP/opus-100", "en-pl")
 
 
 print("Zapisywanie tekstu...")

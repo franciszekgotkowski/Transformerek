@@ -20,7 +20,7 @@ device = torch.device(
 )
 print("Device:", device)
 
-dataset = load_dataset("opus100", "en-pl")
+dataset = load_dataset("Helsinki-NLP/opus-100", "en-pl")
 
 #train_data = TranslationDataset(dataset["train"])
 train_split = dataset["train"].select(range(200000))  # zamiast 1M
